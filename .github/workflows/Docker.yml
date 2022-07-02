@@ -34,7 +34,6 @@ jobs:
         run: 
             docker build -t fstimage .
             docker tag fstimage ghcr.io/amarsarkar9/fstimage:latest
-            docker login -u amarsarkar9 -p ${{secrets.GITHUB_TOKEN}} ghcr.io/amarsarkar9
             docker push ghcr.io/amarsarkar9/fstimage:latest
            
             
