@@ -34,6 +34,5 @@ jobs:
         run: |
           docker build -t hello-docker .
           docker tag hello-docker ghcr.io/amarsarkar9/hello-docker:latest
-          docker login -u amarsarkar9 -p ${{secrets.GITHUB_TOKEN}} ghcr.io/amarsarkar9
           docker push ghcr.io/amarsarkar9/hello-docker:latest
         
