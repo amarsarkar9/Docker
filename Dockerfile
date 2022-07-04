@@ -1,3 +1,3 @@
 FROM ubuntu
 run apt-get update
-CMD ["tail",  "-f" ,"/dev/null"]
+CMD ["tail",  "-f" ,"/dev/null" ,"echo","hello"]
