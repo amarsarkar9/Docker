@@ -1,3 +1,3 @@
 FROM ubuntu
 run apt-get update
-CMD ["echo","hello  "]
+CMD ["echo","hello rrrrrrrrrrrrrrrrr ok  "]
